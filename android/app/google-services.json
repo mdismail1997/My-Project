@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "498707436295",
+    "firebase_url": "https://qspace-265bd-default-rtdb.firebaseio.com",
+    "project_id": "qspace-265bd",
+    "storage_bucket": "qspace-265bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498707436295:android:181a191bdfa2a3219d6ba2",
+        "android_client_info": {
+          "package_name": "com.qspace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "498707436295-q5pd4dc20ep21kt1qqjhhu83koog1gcn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.qspace",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "498707436295-p8nfk0hefunautddgdf6uev150b0r0m6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDSxpAh1M0i_3W3JSEmbfcOP8dgo_adSA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "498707436295-p8nfk0hefunautddgdf6uev150b0r0m6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "498707436295-3o41f4j9n7foi0le3i076ivukf4aogiu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Qspace"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

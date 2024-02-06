@@ -1,0 +1,12 @@
+{
+  "//appId": "Get your own App ID at https://dashboard.agora.io/",
+  "appId": "11466f1e8b484f619e39c0299a6264a9",
+  "//token": "Please refer to https://docs.agora.io/en/Agora%20Platform/token",
+  "token": "00611466f1e8b484f619e39c0299a6264a9IAD5QFp3jSepXIkzEn1k6UutVhcUF94CwX8vNoV07sMpDTLRTXgAAAAAEABGROOe/522YgEAAQD+nbZi",
+  "//channelId": "Your channel ID",
+  "channelId": "Qspace",
+  "//uid": "Your int user ID",
+  "uid": 0,
+  "//stringUid": "Your string user ID",
+  "stringUid": "0"
+}

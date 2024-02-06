@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "786530219411",
+    "project_id": "tradersplatform-a0546",
+    "storage_bucket": "tradersplatform-a0546.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:786530219411:android:c1e9eb63bf13012a7b6466",
+        "android_client_info": {
+          "package_name": "com.trader.platform"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "786530219411-rbevbfntplt7tero9bgp7nn2n1jpmjqj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.trader.platform",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "786530219411-hh2q7914j2q58o806q4v7nhk53j5snvt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbBZDb0o0ueswW_EeElwjT8bRPzUCH8h0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "786530219411-hh2q7914j2q58o806q4v7nhk53j5snvt.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "786530219411-l24gsqhk4d5kb2brtc16gfvhlbfjidkk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.trader.platform"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:786530219411:android:3f69554cd7c553ee7b6466",
+        "android_client_info": {
+          "package_name": "com.traderscustomer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "786530219411-r2q75a0qijoqob3cbrro4sbrknu2u0gg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.traderscustomer",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "786530219411-hh2q7914j2q58o806q4v7nhk53j5snvt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbBZDb0o0ueswW_EeElwjT8bRPzUCH8h0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "786530219411-hh2q7914j2q58o806q4v7nhk53j5snvt.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "786530219411-l24gsqhk4d5kb2brtc16gfvhlbfjidkk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.trader.platform"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

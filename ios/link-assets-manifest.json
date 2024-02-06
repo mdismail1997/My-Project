@@ -1,0 +1,81 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/Montserrat-Medium.ttf",
+      "sha1": "8663feddbd376267524f61d6e196cbb76c24d8f1"
+    },
+    {
+      "path": "src/assets/fonts/OpenSans-Bold.ttf",
+      "sha1": "b7f844e3fbc592719750956a7e9a19f0ede62c78"
+    },
+    {
+      "path": "src/assets/fonts/OpenSans-BoldItalic.ttf",
+      "sha1": "d6e3cfa387d27945108283cccfb0d4672f1dbcdb"
+    },
+    {
+      "path": "src/assets/fonts/OpenSans-ExtraBold.ttf",
+      "sha1": "4c204a41e07fc00472a4b8754a6248cf5983fbf7"
+    },
+    {
+      "path": "src/assets/fonts/OpenSans-ExtraBoldItalic.ttf",
+      "sha1": "9a9225a5fb4b681f6dc153e407993f3244ca59e9"
+    },
+    {
+      "path": "src/assets/fonts/OpenSans-Italic.ttf",
+      "sha1": "53c332cf06b1b7ec3314e13c71eb0caaa12f4ded"
+    },
+    {
+      "path": "src/assets/fonts/OpenSans-Light.ttf",
+      "sha1": "bef371c2ba3ac8cc2ef276a65cc3be46414d1ffd"
+    },
+    {
+      "path": "src/assets/fonts/OpenSans-LightItalic.ttf",
+      "sha1": "a8de340ddb596f59962a54a1809c06ee332c1516"
+    },
+    {
+      "path": "src/assets/fonts/OpenSans-Medium.ttf",
+      "sha1": "71e723b6f61cd4034b2bd373f3f346a7d8680ec2"
+    },
+    {
+      "path": "src/assets/fonts/OpenSans-MediumItalic.ttf",
+      "sha1": "075f5bc788eeff9fda2286051eb50b545d9e5030"
+    },
+    {
+      "path": "src/assets/fonts/OpenSans-Regular.ttf",
+      "sha1": "b334209f43426374b709e42e3185dc46478a96ba"
+    },
+    {
+      "path": "src/assets/fonts/OpenSans-SemiBold.ttf",
+      "sha1": "45974cf9acbd1be118f2b426c7cfab33ee584e3c"
+    },
+    {
+      "path": "src/assets/fonts/OpenSans-SemiBoldItalic.ttf",
+      "sha1": "b78d330449bef1963c55486ef647f4071531e67c"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Medium.ttf",
+      "sha1": "283f21b44efbdbf276ba802be2d949a36bbc4233"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Regular.ttf",
+      "sha1": "fdd3002e7d814ee47c1c1b8487c72c6bbb3a2d00"
+    },
+    {
+      "path": "src/assets/fonts/Roboto-bold.ttf",
+      "sha1": "47327df0f35e7cd7c8645874897a7449697544ae"
+    },
+    {
+      "path": "src/assets/fonts/Roboto-Regular.ttf",
+      "sha1": "824b5480c977a8166e177e5357d13164ccc45f47"
+    },
+    {
+      "path": "src/assets/fonts/WorkSans-Medium.ttf",
+      "sha1": "0516122e218e5d16d2c4090e5192235290ccf2bd"
+    },
+    {
+      "path": "src/assets/fonts/WorkSans-Regular.ttf",
+      "sha1": "b2fe9e6dbe05def653e8685c6b5c42a5dadf5c2e"
+    }
+  ]
+}

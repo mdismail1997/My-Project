@@ -1,0 +1,108 @@
+[
+    {
+        "id": "50",
+        "name": "Fashion",
+        "categories": [
+            {
+                "id": "52",
+                "name": "Men"
+            },
+            {
+                "id": "53",
+                "name": "Women"
+            }
+        ]
+    },
+    {
+        "id": "45",
+        "name": "Watches & Jewelry",
+        "categories": [
+            {
+                "id": "69",
+                "name": "Accessories"
+            },
+            {
+                "id": "70",
+                "name": "Fine Jewellery"
+            },
+            {
+                "id": "71",
+                "name": "Watches"
+            }
+        ]
+    },
+    {
+        "id": "47",
+        "name": "Home & Kitchen",
+        "categories": [
+            {
+                "id": "77",
+                "name": "Bed dressing and Cover"
+            },
+            {
+                "id": "78",
+                "name": "Kitchenette"
+            }
+        ]
+    },
+    {
+        "id": "48",
+        "name": "Health & Beauty",
+        "categories": [
+            {
+                "id": "72",
+                "name": "Fragrances"
+            },
+            {
+                "id": "73",
+                "name": "Make up"
+            },
+            {
+                "id": "74",
+                "name": "Skin & Haircare"
+            }
+        ]
+    },
+    {
+        "id": "49",
+        "name": "New Arrivals"
+    },
+    {
+        "id": "51",
+        "name": "Trending Collection"
+    },
+    {
+        "id": "61",
+        "name": "Flowers & Gifts"
+    },
+    {
+        "id": "62",
+        "name": "Food & Nutrition",
+        "categories": [
+            {
+                "id": "80",
+                "name": "Supplements"
+            },
+            {
+                "id": "82",
+                "name": "Snacks"
+            },
+            {
+                "id": "87",
+                "name": "Tea & Coffee"
+            },
+            {
+                "id": "88",
+                "name": "Beverages"
+            },
+            {
+                "id": "89",
+                "name": "Sauces & Spices"
+            },
+            {
+                "id": "91",
+                "name": "Groceries"
+            }
+        ]
+    }
+]

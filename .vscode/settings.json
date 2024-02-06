@@ -1,0 +1,23 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "prettier.configPath": "./.prettierrc.js",
+  "editor.formatOnSave": true,
+  "prettier.requireConfig": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "eslint.packageManager": "yarn",
+  "eslint.run": "onSave",
+  "eslint.workingDirectories": [
+    {
+      "pattern": "./src/"
+    }
+  ],
+  "eslint.alwaysShowStatus": true,
+  "git.pruneOnFetch": true,
+  "editor.tabSize": 2,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  }
+}

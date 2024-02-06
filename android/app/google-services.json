@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "214755125299",
+    "firebase_url": "https://kabou-rider-default-rtdb.firebaseio.com",
+    "project_id": "kabou-rider",
+    "storage_bucket": "kabou-rider.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:214755125299:android:6e23e310140a120c11db46",
+        "android_client_info": {
+          "package_name": "com.rideruser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "214755125299-56cnhh5273atqoro8q2juepu02k4122t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rideruser",
+            "certificate_hash": "6366664e01586f380f874b455c31dbf58a7cf7e4"
+          }
+        },
+        {
+          "client_id": "214755125299-sdgke2n6c0ut1uks7b5cv0uo0pgdt0i0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rideruser",
+            "certificate_hash": "c880e295f52db295d44e0638f57222af99ccbe32"
+          }
+        },
+        {
+          "client_id": "214755125299-dlk54ftmlo9capl1ol47gsuvj9gaaror.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxJSeUNRX1xe6aU9uNWXdF0r8AWQplunI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "214755125299-dlk54ftmlo9capl1ol47gsuvj9gaaror.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "214755125299-h46im95dbgv4o72av6evjohro1makdkq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.RiderUser"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

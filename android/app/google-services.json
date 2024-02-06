@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "260773907378",
+    "project_id": "equipro-coach",
+    "storage_bucket": "equipro-coach.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:260773907378:android:5c3dd3453098ab794fb2ab",
+        "android_client_info": {
+          "package_name": "com.equiprocoach.equipro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "260773907378-tv51u0uuo02uga52jr27eglpchu8svhe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKfHGzMdTdVtYZ7aGISfrznp1IFtbo8HU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "260773907378-tv51u0uuo02uga52jr27eglpchu8svhe.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "260773907378-n24ohsdnq5qqko42iiuadpr9elugkr5h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.equiprocoach.equipro"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

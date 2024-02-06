@@ -1,0 +1,11 @@
+{
+    "recommendations": [
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint",
+        "natqe.reload",
+        "edonet.vscode-command-runner",
+        "github.vscode-pull-request-github",
+        "eamodio.gitlens",
+        "dsznajder.es7-react-js-snippets"
+    ]
+}

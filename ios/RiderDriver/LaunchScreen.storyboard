@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="SpalshScreen" translatesAutoresizingMaskIntoConstraints="NO" id="FUM-lm-gJw">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="FUM-lm-gJw" secondAttribute="height" multiplier="15:8" id="dNH-WW-mDt"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="FUM-lm-gJw" secondAttribute="bottom" id="5zt-x1-NML"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="FUM-lm-gJw" secondAttribute="bottom" id="KE0-Lp-3me"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="FUM-lm-gJw" secondAttribute="trailing" id="KLJ-5C-CjR"/>
+                            <constraint firstAttribute="trailing" secondItem="FUM-lm-gJw" secondAttribute="trailing" id="Nbb-l1-zex"/>
+                            <constraint firstItem="FUM-lm-gJw" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="PrZ-eB-zun"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="FUM-lm-gJw" secondAttribute="bottom" id="QTD-jn-NMm"/>
+                            <constraint firstAttribute="trailing" secondItem="FUM-lm-gJw" secondAttribute="trailing" id="T8a-kl-z6Z"/>
+                            <constraint firstItem="FUM-lm-gJw" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="UaE-ZF-Ila"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="FUM-lm-gJw" secondAttribute="trailing" id="VfH-g4-5o4"/>
+                            <constraint firstItem="FUM-lm-gJw" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="ZNa-UH-Vz4"/>
+                            <constraint firstItem="FUM-lm-gJw" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" id="hS2-Hm-XfF"/>
+                            <constraint firstItem="FUM-lm-gJw" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" id="me4-IL-WEG"/>
+                            <constraint firstAttribute="bottom" secondItem="FUM-lm-gJw" secondAttribute="bottom" id="rvQ-Wz-izV"/>
+                            <constraint firstItem="FUM-lm-gJw" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="vHN-Z0-ziL"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="SpalshScreen" width="130" height="281"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

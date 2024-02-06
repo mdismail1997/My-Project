@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "654075399835",
+    "project_id": "kabou-driver",
+    "storage_bucket": "kabou-driver.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654075399835:android:e8adc410be26cbec07803e",
+        "android_client_info": {
+          "package_name": "com.kabou.riderdriver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "654075399835-6dmsbs9c0vqgdpd0oie4b4ij93oh2id0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kabou.riderdriver",
+            "certificate_hash": "947105b6aa2192f162eacdbdb5f65a059bb325c6"
+          }
+        },
+        {
+          "client_id": "654075399835-bauan3u40r5bsqh1m8lj2jok8cfqapgd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kabou.riderdriver",
+            "certificate_hash": "c880e295f52db295d44e0638f57222af99ccbe32"
+          }
+        },
+        {
+          "client_id": "654075399835-c8o0okncp67jhm8fup7i1ou8mud1idbf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPhIcPn0oQ1YWEnjujykNAzZUMY9zzmkg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "654075399835-c8o0okncp67jhm8fup7i1ou8mud1idbf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "654075399835-75229r7fvtvb66uh8qd2q8ai4l1rvbt9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.RiderUser"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

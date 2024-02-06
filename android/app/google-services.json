@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "1014674398298",
+    "firebase_url": "https://uverlist-1555022012941.firebaseio.com",
+    "project_id": "uverlist-1555022012941",
+    "storage_bucket": "uverlist-1555022012941.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1014674398298:android:ec2a67ebd47ca217448c63",
+        "android_client_info": {
+          "package_name": "com.uverlist.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1014674398298-49hqi1j1c36kfktqc5iipt2k3tv9f4p4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.uverlist.app",
+            "certificate_hash": "4563fe45b935940c4dd463ef3f9d4844c0b0d751"
+          }
+        },
+        {
+          "client_id": "1014674398298-6dngk6nkskta0uek4452gobhbggoa60c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.uverlist.app",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "1014674398298-hmbc8l4oflqa4iklgdl5ckn7t3cs7jqv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEDG4LKoL7AbcelQz2ab6tDWOZORn0hAA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1014674398298-24fb84ndf0e7423a3nvc7bl76svhor3m.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1014674398298-3t7ii3gp0rn5rch6cdlt8n590s4ru778.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.uverlist.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

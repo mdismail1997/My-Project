@@ -1,0 +1,15 @@
+export default Object.freeze({
+  Slide: 'Slide',
+  SignIn: 'SignIn',
+  SignUp: 'SignUp',
+  Home: 'Home',
+  Bottomtab: 'Bottomtab',
+  Drawertab: 'DrawerTab',
+  Shopping: 'Shopping',
+  SearchItem: 'SearchItem',
+  Acoount: 'Account',
+  ProductDetails: 'ProductDetails',
+  ChangePassword: 'ChangePassword',
+  ForgetPassword: 'ForgetPassword',
+  SizeDetails: 'SizeDetails',
+});

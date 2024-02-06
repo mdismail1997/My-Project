@@ -1,0 +1,31 @@
+export const assetsImages = {
+  backImage: require('../../Assets/images/backImage.png'),
+  skip1: require('../../Assets/images/skip1.png'),
+  skip2: require('../../Assets/images/skip2.png'),
+  google: require('../../Assets/images/google.png'),
+  babyNmom: require('../../Assets/images/baby&mom.png'),
+  healthNbeauty: require('../../Assets/images/Health&beauty.png'),
+  phone: require('../../Assets/images/Phone.png'),
+  sports: require('../../Assets/images/Sports.png'),
+  banner: require('../../Assets/images/banner.png'),
+  banner1: require('../../Assets/images/banner1.png'),
+  latest1: require('../../Assets/images/latest1.png'),
+  latest2: require('../../Assets/images/latest2.png'),
+  latest3: require('../../Assets/images/latest3.png'),
+  off1: require('../../Assets/images/off1.png'),
+  off2: require('../../Assets/images/off2.png'),
+  off3: require('../../Assets/images/off3.png'),
+  off4: require('../../Assets/images/off4.png'),
+  user: require('../../Assets/images/user.png'),
+  product: require('../../Assets/images/product.png'),
+  image1: require("../../Assets/images/image1.png"),
+  image2: require("../../Assets/images/image2.png"),
+  image3: require("../../Assets/images/image3.png"),
+};
+
+export const assetsIcon = {
+  menu: require('../../Assets/images/icon/menu.png'),
+  search: require('../../Assets/images/icon/search.png'),
+  cart: require('../../Assets/images/icon/cart.png'),
+  bell: require('../../Assets/images/icon/bell.png'),
+};

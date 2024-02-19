@@ -4,7 +4,7 @@ import { STYLES, calcH, calcW } from '../../utils/constants/common'
 import { Screen,InputComponent,HeaderComponent  } from '../components'
 import ScrollView from 'react-native-gesture-handler'
 import { createDrawerNavigator, DrawerContentScrollView, DrawerItem, DrawerItemList } from '@react-navigation/drawer';
-import { DashboardScreen, AccountScreen, }  from '../screen';
+import { DashboardScreen, AccountScreen,RoomListScreen }  from '../screen';
 import Customdrawer from '../navigation/CustomDrawer';
 //import KDrawer from '../navigation/KDrawer';
 import { Images } from '../assets/image';
@@ -17,15 +17,15 @@ function DrawerNavigation({ route, navigation },props) {
   return ( 
     
     <Drawer.Navigator 
-      initialRouteName="DashboardScreen"
+      initialRouteName="RoomListScreen"
       screenOptions={{ headerShown: false, drawerStyle: { width: width - 50 } }}
       drawerContent={(props)=> <Customdrawer {...props}/>}
     >
         
     
     <Drawer.Screen
-      name="DashboardScreen"
-      component={DashboardScreen}    
+      name="RoomListScreen"
+      component={RoomListScreen}    
     />
    
     {/* <Drawer.Screen

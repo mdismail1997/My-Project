@@ -25,34 +25,52 @@ export const DATA = [
 export const RoomDATA = [
     {
       id: '1',  
-      pic: Images.RoomImg1,  
-      place: 'San Francisco',
-      price: '$1000' 
+      pic: Images.TripProfile1,  
+      place: 'Salman',
+      price: 'Lorem Ipsum available but the majority have suffered alteration ' 
     },
     {
       id: '2',  
-      pic: Images.RoomImg2,  
-      place: 'Canada',
-      price: '$1000' 
+      pic: Images.TripProfile2,  
+      place: 'Arman',
+      price: 'Lorem Ipsum available but the majority have suffered alteration ' 
     },
     {
       id: '3', 
-      pic: Images.RoomImg3,  
-      place: 'San Francisco',
-      price: '$1000' 
+      pic: Images.TripProfile3,  
+      place: 'David',
+      price: 'Lorem Ipsum available but the majority have suffered alteration ' 
     },
     {
       id: '4',
-      pic: Images.RoomImg4,  
-      place: 'Switzerland',
-      price: '$1000' 
+      pic: Images.ProfilePic,  
+      place: 'Aamir',
+      price: 'Lorem Ipsum available but the majority have suffered alteration ' 
     },
     {
         id: '5',
-        pic: Images.RoomImg5,  
-        place: 'Canada',
-        price: '$1000' 
+        pic: Images.TripProfile1,  
+        place: 'Vicky',
+        price: 'Lorem Ipsum available but the majority have suffered alteration ' 
     },
+    {
+      id: '6',
+      pic: Images.TripProfile2,  
+      place: 'Arjun',
+      price: 'Lorem Ipsum available but the majority have suffered alteration ' 
+  },
+  {
+    id: '7',
+    pic: Images.TripProfile3,  
+    place: 'Himesh',
+    price: 'Lorem Ipsum available but the majority have suffered alteration ' 
+},
+{
+  id: '8',
+  pic: Images.ProfilePic,  
+  place: 'Suman',
+  price: 'Lorem Ipsum available but the majority have suffered alteration ' 
+},
   ];
 export const TripDATA = [
   {

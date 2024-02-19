@@ -23,12 +23,16 @@ function RoomListScreen({ route, navigation }) {
               //     navigation.navigate('SearchRoomieScreen') }}
                   >
 
-                  <Text style={styles.subheader}>Search Room Result</Text>             
-                  <Image source={Images.searchIcon} style={styles.searchIcon}/>
+                  <Text style={styles.subheader}>MY AMBASSADORS</Text>             
+                  <Image source={Images.Plus} style={styles.searchIcon}/>
               </TouchableOpacity>
              
               
         </View>
+
+
+
+        
         <View style={styles.listContainer}>     
                 <FlatList 
                   data={RoomDATA}
@@ -43,8 +47,30 @@ function RoomListScreen({ route, navigation }) {
                           </View>                         
                           <View style={styles.btnContainer}>
                             <TouchableOpacity  onPress={()=>navigation.navigate('RoomDetailsScreen')}>
+                            <View style={styles.infoContainer}>
+                            <Image source={Images.SvgEyeOpen}  style={styles.SvgEyeOpen} />
+                           
+                            {/* <Text style={styles.place}>eye</Text> */}
+                            {/* <Text style={styles.price}>delete</Text>    */}
+                          </View> 
+                                {/* <Text style={styles.btnText}>Details</Text>                */}
+                            </TouchableOpacity>
+                            <TouchableOpacity  onPress={()=>navigation.navigate('RoomDetailsScreen')}>
+                            <View style={styles.infoContainer}>
+                            <Image source={Images.DeleteIcon}  style={styles.Deleteicon} />
+                           
+                            {/* <Text style={styles.place}>eye</Text> */}
+                            {/* <Text style={styles.price}>delete</Text>    */}
+                          </View> 
+                                {/* <Text style={styles.btnText}>Details</Text>                */}
+                            </TouchableOpacity>
+                            <View style={styles.btnContainer1}>
+                            <TouchableOpacity  onPress={()=>navigation.navigate('RoomDetailsScreen')}>
+                            {/* <Image source={Images.SvgEyeOpen}  style={styles.searchIcon} /> 
+                            <Image source={Images.SvgEyeOpen}  style={styles.SvgEyeOpen} />*/}
                                 <Text style={styles.btnText}>Details</Text>               
                             </TouchableOpacity>
+                          </View>  
                           </View>                                                                                                   
                         </View>            
                 }

@@ -68,6 +68,7 @@ export const Images = {
   MenuIcon : require('../image/menu.png'),
   
   UserIcon: require('../image/user-icon.png'),
+  DeleteIcon: require('../image/delete.png'),
 
   RoomVideo1 : require('../image/roomVideo.mp4'),
   RoomVideo2 : require('../image/roomVideo2.mp4'),

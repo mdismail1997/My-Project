@@ -45,59 +45,60 @@ function LoginScreen({ route, navigation }) {
   
     const data = {
 
-      // email:"testing12399@yopmal.com",
-      // password:"P@ss1234",
-      // deviceToken:"12345678"
+      email:"test@yopmal.com",
+      password:"P@ss1234",
+      deviceToken:"12345678"
     
-      email:email,
-      password:password,
-      deviceToken:device,
+      // email:email,
+      // password:password,
+      // deviceToken:device,
     }
     console.log('register data: ', data);
-    axios({
-      method: 'POST',
-      url: webService.login,
-      data: data,
-    })
-    .then(res => {
-      console.log('regn response: ++++++++++++++++++++++++', res.data);
-      setLoder(false);
-      AsyncStorage.setItem('token', JSON.stringify(res.data.token));
+    Alert.alert('', 'Login Successfully.', [
+      { text: 'OK' },
+    ]);
+    navigation.replace('DrawerNavigation')
+    // axios({
+    //   method: 'POST',
+    //   url: webService.login,
+    //   data: data,
+    // })
+    // .then(res => {
+    //   console.log('regn response: ++++++++++++++++++++++++', res.data);
+    //   setLoder(false);
+    //   AsyncStorage.setItem('token', JSON.stringify(res.data.token));
     
-      Alert.alert('', 'Login Successfully.', [
-        { text: 'OK' },
-      ]);
-      navigation.replace('DrawerNavigation')
+      
  
-      // webService.storeData('userData', JSON.stringify(response.data.token));
+    //   // webService.storeData('userData', JSON.stringify(response.data.token));
      
-      // navigation.navigate('DrawerNavigation')
-      // if(response.data.success === true){
-      //   let user_id = response.data.data.data._id;
-      //   console.log("user_id: ", response.data.data.token);
-      //   navigation.navigate('DrawerNavigation', {id: user_id })
-      //   console.log("rseponse success:::::::: ", response.data);
+    //   // navigation.navigate('DrawerNavigation')
+    //   // if(response.data.success === true){
+    //   //   let user_id = response.data.data.data._id;
+    //   //   console.log("user_id: ", response.data.data.token);
+    //   //   navigation.navigate('DrawerNavigation', {id: user_id })
+    //   //   console.log("rseponse success:::::::: ", response.data);
        
-      //   AsyncStorage.setItem('user_token', response.data.data.token)
+    //   //   AsyncStorage.setItem('user_token', response.data.data.token)
         
-      // }
-      // else if(response.data.success === false){
-      //   Alert.alert(response.data.error.message);
-      // }
-    })
-    .catch(err => {
-      setLoder(false)
-      console.log('err=====================', err);
-      Alert.alert('Invalid Credintial', 'Please check your credintial', [
-        { text: 'OK' },
-      ]);
-      commonToast({
-        text: err.data.error,
-        position: 'top',
-        toastFor: 'error',
-      });
-      Alert.alert("Error");
-    });
+    //   // }
+    //   // else if(response.data.success === false){
+    //   //   Alert.alert(response.data.error.message);
+    //   // }
+    // })
+    // .catch(err => {
+    //   setLoder(false)
+    //   console.log('err=====================', err);
+    //   Alert.alert('Invalid Credintial', 'Please check your credintial', [
+    //     { text: 'OK' },
+    //   ]);
+    //   commonToast({
+    //     text: err.data.error,
+    //     position: 'top',
+    //     toastFor: 'error',
+    //   });
+    //   Alert.alert("Error");
+    // });
   }
 
  
